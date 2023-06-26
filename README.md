@@ -9,6 +9,7 @@
 
 ## Head Plate Goals and Notes
   The purpose of the head plates in this project is to provide daily updates on the patient's health and treatment, rather than detailed patient history. The exact content of the historical head plates is unknown, so the admission form serves as a basis for creating the head plate design. However, the head plates should not provide extensive medical or mental status information but instead, give users a sense of the patient's general information.
+  
   The head plates should be able to switch between English, French, and Ottoman Turkish (Turkish). Since Ottoman Turkish is not available on Google Translate, Modern Turkish is used instead. The "Simple Localization" Unity package with Google Sheets integration was utilized to implement the language translation feature. Localization data is stored in a Google Sheets document, saved in CSV format, and placed in the Resources folder.
 
 ## Future Improvements
